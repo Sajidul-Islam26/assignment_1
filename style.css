@@ -18,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .logo img{
@@ -43,9 +43,9 @@ nav{
     background-color: blue;
     color: white;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    padding: 12px 25px;
 }
 /*nav end */
 .hero{
@@ -66,7 +66,9 @@ nav{
     width: 100%;
     color: white;
 }
-
+.hero-btn{
+    margin-top: 100px;
+}
 .hero-content h1{
     font-size: 60px;
     margin-bottom: 20px;
@@ -85,4 +87,45 @@ nav{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/*speaker start*/
+.speaker{
+    width: 80%;
+    margin: auto;
+}
+
+.speaker h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.speaker-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h5{
+    color: blue;
+    margin: 15px;
+}
+
+.card h3{
+    margin: 0 15px;
+}
+
+.card p{
+    margin: 10px 15px 20px;
+    color: gray;
 }
