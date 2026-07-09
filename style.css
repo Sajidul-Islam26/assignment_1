@@ -129,3 +129,94 @@ nav{
     margin: 10px 15px 20px;
     color: gray;
 }
+
+/*price start*/
+/* Price Section */
+
+.price{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.price h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.price p{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.price-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.price-card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.price-card-pro{
+    background-color: #0f172a;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.price-card h5,
+.price-card-pro h5{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.price-card h1,
+.price-card-pro h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.price-card p,
+.price-card-pro p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.price-card ul,
+.price-card-pro ul{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.price-card li,
+.price-card-pro li{
+    margin-bottom: 10px;
+}
+
+.price-btn{
+    width: 150px;
+    padding: 12px;
+    background-color: white;
+    color: blue;
+    border-radius: 2px solid blue;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+.common-btn-pro{
+    width: 150px;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
