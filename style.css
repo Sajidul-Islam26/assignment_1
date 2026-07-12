@@ -42,10 +42,9 @@ nav{
 .common-btn{
     background-color: blue;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 12px 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px solid blue;
 }
 /*nav end */
 .hero{
@@ -66,9 +65,7 @@ nav{
     width: 100%;
     color: white;
 }
-.hero-btn{
-    margin-top: 100px;
-}
+
 .hero-content h1{
     font-size: 60px;
     margin-bottom: 20px;
@@ -79,14 +76,13 @@ nav{
     margin-bottom: 30px;
 }
 
-.common-btn{
-    margin-top: 100px;
+.hero-btn{
     background-color: blue;
     color: white;
     padding: 12px 25px;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
+    margin-top: 180px;
+  
 }
 
 /*speaker start*/
@@ -204,8 +200,7 @@ nav{
     padding: 12px;
     background-color: white;
     color: blue;
-    border-radius: 2px solid blue;
-    cursor: pointer;
+    border-radius: 1px solid blue;
     display: block;
     margin: 20px auto 0;
 }
